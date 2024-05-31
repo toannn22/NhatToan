@@ -820,7 +820,6 @@
       #IMAGE286:hover > .ladi-image,
       #IMAGE21:hover > .ladi-image,
       #HEADLINE22 > .ladi-headline:hover,
-      #HEADLINE23 > .ladi-headline:hover,
       #BOX26 > .ladi-box:hover,
       #LIST_PARAGRAPH27 > .ladi-list-paragraph:hover,
       #SHAPE28:hover > .ladi-shape,
@@ -988,7 +987,7 @@
       #HEADLINE293 > .ladi-headline {
         font-size: 18px;
         line-height: 1.6;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
       }
       #IMAGE286 > .ladi-image > .ladi-image-background,
       #GROUP195,
@@ -1016,13 +1015,6 @@
       #HEADLINE22 > .ladi-headline {
         line-height: 1.6;
         color: rgb(255, 255, 255);
-      }
-      #HEADLINE23 > .ladi-headline {
-        font-size: 30px;
-        font-weight: bold;
-        line-height: 1.2;
-        color: rgb(255, 255, 255);
-        letter-spacing: 0px;
       }
       #BOX26 > .ladi-box {
         border-top-left-radius: 0px;
@@ -1064,7 +1056,7 @@
       }
       #BUTTON29 > .ladi-button:hover .ladi-button-background {
         background-image: none !important;
-        background-color: rgb(244, 64, 37) !important;
+        background-color: rgb(255, 255, 255) !important;
         background-size: initial !important;
         background-origin: initial !important;
         background-position: initial !important;
@@ -1081,6 +1073,13 @@
         line-height: 1.6;
         color: rgb(255, 255, 255);
         text-align: center;
+      }
+      #HEADLINE23 > .ladi-headline {
+        font-weight: bold;
+        line-height: 1.2;
+        color: rgb(255, 22, 22);
+        letter-spacing: 0px;
+        -webkit-text-stroke: 0px rgb(255, 255, 255);
       }
       #BOX306 > .ladi-box {
         border-radius: 20px;
@@ -1123,7 +1122,7 @@
         font-size: 30px;
         font-weight: bold;
         line-height: 1.2;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         text-align: center;
       }
       #GROUP190,
@@ -1201,7 +1200,7 @@
         font-size: 30px;
         font-weight: bold;
         line-height: 1.2;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         text-align: center;
       }
       #GROUP317,
@@ -1232,8 +1231,7 @@
         fill: rgb(255, 255, 255);
       }
       #PARAGRAPH298 > .ladi-paragraph,
-      #PARAGRAPH112 > .ladi-paragraph,
-      #PARAGRAPH127 > .ladi-paragraph {
+      #PARAGRAPH112 > .ladi-paragraph {
         font-family: "Open Sans", sans-serif;
         font-size: 14px;
         line-height: 1.6;
@@ -1300,6 +1298,12 @@
         font-weight: bold;
         line-height: 1.2;
         color: rgb(33, 33, 33);
+        text-align: center;
+      }
+      #PARAGRAPH127 > .ladi-paragraph {
+        font-family: "Open Sans", sans-serif;
+        line-height: 1.6;
+        color: rgb(255, 255, 255);
         text-align: center;
       }
       #SECTION41 > .ladi-section-background {
@@ -1408,7 +1412,7 @@
       #LIST_PARAGRAPH299 > .ladi-list-paragraph {
         font-size: 14px;
         line-height: 1.6;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
       }
       #LIST_PARAGRAPH53 ul li,
       #LIST_PARAGRAPH64 ul li,
@@ -1639,7 +1643,7 @@
         font-size: 18px;
         font-weight: bold;
         line-height: 1.6;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         text-align: left;
       }
       @media (min-width: 768px) {
@@ -1735,23 +1739,13 @@
           top: -1.068px;
           background-image: url("https://w.ladicdn.com/s1300x900/66549eba09604700111c1832/z5495143485895_28f335bfe1a6fbe20e13c3f3ab02143a-20240531122249-gb87t.jpg");
         }
-        #HEADLINE22,
-        #HEADLINE23 {
-          width: 460px;
-        }
         #HEADLINE22 {
+          width: 460px;
           top: 397.085px;
           left: -0.42109px;
         }
         #HEADLINE22 > .ladi-headline {
           font-size: 15px;
-        }
-        #HEADLINE23 {
-          top: 304.8px;
-          left: 0.89457px;
-        }
-        #HEADLINE23 > .ladi-headline {
-          text-align: left;
         }
         #GROUP24,
         #GROUP25 {
@@ -1783,6 +1777,15 @@
         #BUTTON29 {
           top: 515px;
           left: 0px;
+        }
+        #HEADLINE23 {
+          width: 377px;
+          top: 145.8px;
+          left: 586.192px;
+        }
+        #HEADLINE23 > .ladi-headline {
+          font-size: 24.58px;
+          text-align: center;
         }
         #SECTION31 {
           height: 623.1px;
@@ -2160,6 +2163,10 @@
           top: 191.529px;
           left: 287.52px;
         }
+        #PARAGRAPH127 > .ladi-paragraph,
+        #HEADLINE246 > .ladi-headline {
+          font-size: 14px;
+        }
         #SHAPE128,
         #SHAPE129 {
           width: 17.946px;
@@ -2310,9 +2317,6 @@
           width: 451px;
           top: 23px;
           left: 0px;
-        }
-        #HEADLINE246 > .ladi-headline {
-          font-size: 14px;
         }
         #GROUP247 {
           width: 402px;
@@ -2467,10 +2471,6 @@
         #HEADLINE22 > .ladi-headline {
           font-size: 14px;
         }
-        #HEADLINE23 {
-          top: 267.328px;
-          left: 30px;
-        }
         #GROUP24,
         #GROUP25 {
           width: 505.548px;
@@ -2501,6 +2501,13 @@
         #BUTTON29 {
           top: 891.828px;
           left: 117.287px;
+        }
+        #HEADLINE23 {
+          top: 267.328px;
+          left: 30px;
+        }
+        #HEADLINE23 > .ladi-headline {
+          font-size: 30px;
         }
         #SECTION31 {
           height: 748.87px;
@@ -2869,10 +2876,16 @@
           top: 117.008px;
           left: 202.516px;
         }
+        #PARAGRAPH127,
+        #HEADLINE271 {
+          width: 137px;
+        }
         #PARAGRAPH127 {
-          width: 131px;
-          top: 135.81px;
-          left: 228.256px;
+          top: 134.987px;
+          left: 220.803px;
+        }
+        #PARAGRAPH127 > .ladi-paragraph {
+          font-size: 13.32px;
         }
         #SHAPE128,
         #SHAPE129 {
@@ -2997,7 +3010,6 @@
           left: 240.291px;
         }
         #HEADLINE271 {
-          width: 137px;
           left: 30.4858px;
         }
         #SHAPE272 {
@@ -3117,7 +3129,7 @@
         display: none;
       "
     >
-      <symbol id="shape_MqQUKeBPwP" viewBox="0 0 150.2 150.2">
+      <symbol id="shape_hBIspisUAK" viewBox="0 0 150.2 150.2">
         <path
           d="M115.7,138.2a75.3,75.3,0,0,0,30.2-39L98.5,146.6A74.9,74.9,0,0,0,115.7,138.2Z"
           transform="translate(0.5 -0.2)"
@@ -3167,7 +3179,7 @@
           transform="translate(0.5 -0.2)"
         ></path>
       </symbol>
-      <symbol id="shape_yzbmnVwKdk" viewBox="0 0 152.09 115.41">
+      <symbol id="shape_neFcLLIDUQ" viewBox="0 0 152.09 115.41">
         <path
           d="M58.1,0l-.05,9Q38.31,19.22,29.91,30.33a40.08,40.08,0,0,0-8.48,24.45c0,5.12.66,8.68,2.1,10.68s3,3,4.82,3A26.62,26.62,0,0,0,36,66.88a29.07,29.07,0,0,1,9-1.62A22.13,22.13,0,0,1,61.16,72.2,22.51,22.51,0,0,1,67.9,88.74a24.7,24.7,0,0,1-2.23,10.15,24.06,24.06,0,0,1-6.22,8.3,32.69,32.69,0,0,1-9.37,5.61,29.81,29.81,0,0,1-11.35,2.1,31.72,31.72,0,0,1-14.31-3.59A42.77,42.77,0,0,1,12,101.73,47.08,47.08,0,0,1,0,69.66a64.62,64.62,0,0,1,4-22A68.78,68.78,0,0,1,15.26,27.91,81.41,81.41,0,0,1,33.53,11.52,94.2,94.2,0,0,1,58.1,0Z"
         ></path>
@@ -3175,12 +3187,12 @@
           d="M142,1.18l-.06,8.33A156.52,156.52,0,0,0,123,21.73a59.08,59.08,0,0,0-11.23,11.1A33.66,33.66,0,0,0,106.19,44a49.26,49.26,0,0,0-1.58,12.66q0,6.66,2.44,9.68t5.15,3a23,23,0,0,0,7.51-1.79,27.81,27.81,0,0,1,9.85-1.77,22.5,22.5,0,0,1,15.63,6.6,21.16,21.16,0,0,1,6.9,16.21,23.12,23.12,0,0,1-2.4,10.15,29.75,29.75,0,0,1-6.39,8.63,29.41,29.41,0,0,1-9.37,5.95,30.67,30.67,0,0,1-11.68,2.09A32,32,0,0,1,108.1,112,39.23,39.23,0,0,1,96,102.58a49.65,49.65,0,0,1-8.58-14,45.67,45.67,0,0,1-3.23-17.69,68.52,68.52,0,0,1,4-22.65,67.76,67.76,0,0,1,11.29-20.1A76.75,76.75,0,0,1,117.55,12,90.21,90.21,0,0,1,142,1.18Z"
         ></path>
       </symbol>
-      <symbol id="shape_EdmvlswxbU" viewBox="0 0 24 24">
+      <symbol id="shape_mDMAAcwVSE" viewBox="0 0 24 24">
         <path
           d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
         ></path>
       </symbol>
-      <symbol id="shape_jUmvickALB" viewBox="0 0 24 24">
+      <symbol id="shape_HeXywdhLNy" viewBox="0 0 24 24">
         <path
           d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z"
         ></path>
@@ -3217,7 +3229,7 @@
                 viewBox="0 0 150.2 150.2"
                 fill="rgba(228, 228, 228, 1)"
               >
-                <use xlink:href="#shape_MqQUKeBPwP"></use>
+                <use xlink:href="#shape_hBIspisUAK"></use>
               </svg>
             </div>
           </div>
@@ -3266,11 +3278,6 @@
               for you!” 🌟
             </h3>
           </div>
-          <div id="HEADLINE23" class="ladi-element">
-            <h3 class="ladi-headline ladi-transition">
-              Reasons why people should choose my services
-            </h3>
-          </div>
           <div id="GROUP24" class="ladi-element">
             <div class="ladi-group">
               <div id="GROUP25" class="ladi-element">
@@ -3307,7 +3314,7 @@
                 viewBox="0 0 150.2 150.2"
                 fill="rgba(249, 109, 0, 1)"
               >
-                <use xlink:href="#shape_MqQUKeBPwP"></use>
+                <use xlink:href="#shape_hBIspisUAK"></use>
               </svg>
             </div>
           </div>
@@ -3323,6 +3330,11 @@
               </div>
             </div></a
           >
+          <div id="HEADLINE23" class="ladi-element">
+            <h3 class="ladi-headline">
+              Reasons why people should choose my services
+            </h3>
+          </div>
         </div>
       </div>
       <div id="SECTION31" class="ladi-section">
@@ -3406,7 +3418,7 @@
                         viewBox="0 0 24 24"
                         fill="rgba(234, 242, 254, 1.0)"
                       >
-                        <use xlink:href="#shape_jUmvickALB"></use>
+                        <use xlink:href="#shape_HeXywdhLNy"></use>
                       </svg>
                     </div>
                   </div>
@@ -3437,7 +3449,7 @@
                         viewBox="0 0 24 24"
                         fill="rgba(234, 242, 254, 1.0)"
                       >
-                        <use xlink:href="#shape_jUmvickALB"></use>
+                        <use xlink:href="#shape_HeXywdhLNy"></use>
                       </svg>
                     </div>
                   </div>
@@ -3466,7 +3478,7 @@
                         viewBox="0 0 24 24"
                         fill="rgba(234, 242, 254, 1.0)"
                       >
-                        <use xlink:href="#shape_jUmvickALB"></use>
+                        <use xlink:href="#shape_HeXywdhLNy"></use>
                       </svg>
                     </div>
                   </div>
@@ -3526,7 +3538,7 @@
                             viewBox="0 0 152.09 115.41"
                             fill="rgba(255, 255, 255, 1.0)"
                           >
-                            <use xlink:href="#shape_yzbmnVwKdk"></use>
+                            <use xlink:href="#shape_neFcLLIDUQ"></use>
                           </svg>
                         </div>
                       </div>
@@ -3546,7 +3558,7 @@
                             viewBox="0 0 152.09 115.41"
                             fill="rgba(255, 255, 255, 1.0)"
                           >
-                            <use xlink:href="#shape_yzbmnVwKdk"></use>
+                            <use xlink:href="#shape_neFcLLIDUQ"></use>
                           </svg>
                         </div>
                       </div>
@@ -3567,7 +3579,7 @@
                                 viewBox="0 0 24 24"
                                 fill="rgba(255,174,15,1)"
                               >
-                                <use xlink:href="#shape_EdmvlswxbU"></use>
+                                <use xlink:href="#shape_mDMAAcwVSE"></use>
                               </svg>
                             </div>
                           </div>
@@ -3581,7 +3593,7 @@
                                 viewBox="0 0 24 24"
                                 fill="rgba(255,174,15,1)"
                               >
-                                <use xlink:href="#shape_EdmvlswxbU"></use>
+                                <use xlink:href="#shape_mDMAAcwVSE"></use>
                               </svg>
                             </div>
                           </div>
@@ -3595,7 +3607,7 @@
                                 viewBox="0 0 24 24"
                                 fill="rgba(255,174,15,1)"
                               >
-                                <use xlink:href="#shape_EdmvlswxbU"></use>
+                                <use xlink:href="#shape_mDMAAcwVSE"></use>
                               </svg>
                             </div>
                           </div>
@@ -3609,7 +3621,7 @@
                                 viewBox="0 0 24 24"
                                 fill="rgba(255,174,15,1)"
                               >
-                                <use xlink:href="#shape_EdmvlswxbU"></use>
+                                <use xlink:href="#shape_mDMAAcwVSE"></use>
                               </svg>
                             </div>
                           </div>
@@ -3623,7 +3635,7 @@
                                 viewBox="0 0 24 24"
                                 fill="rgba(255,174,15,1)"
                               >
-                                <use xlink:href="#shape_EdmvlswxbU"></use>
+                                <use xlink:href="#shape_mDMAAcwVSE"></use>
                               </svg>
                             </div>
                           </div>
@@ -3661,7 +3673,7 @@
                         viewBox="0 0 152.09 115.41"
                         fill="rgba(255, 255, 255, 1.0)"
                       >
-                        <use xlink:href="#shape_yzbmnVwKdk"></use>
+                        <use xlink:href="#shape_neFcLLIDUQ"></use>
                       </svg>
                     </div>
                   </div>
@@ -3681,7 +3693,7 @@
                         viewBox="0 0 152.09 115.41"
                         fill="rgba(255, 255, 255, 1.0)"
                       >
-                        <use xlink:href="#shape_yzbmnVwKdk"></use>
+                        <use xlink:href="#shape_neFcLLIDUQ"></use>
                       </svg>
                     </div>
                   </div>
@@ -3702,7 +3714,7 @@
                             viewBox="0 0 24 24"
                             fill="rgba(255,174,15,1)"
                           >
-                            <use xlink:href="#shape_EdmvlswxbU"></use>
+                            <use xlink:href="#shape_mDMAAcwVSE"></use>
                           </svg>
                         </div>
                       </div>
@@ -3716,7 +3728,7 @@
                             viewBox="0 0 24 24"
                             fill="rgba(255,174,15,1)"
                           >
-                            <use xlink:href="#shape_EdmvlswxbU"></use>
+                            <use xlink:href="#shape_mDMAAcwVSE"></use>
                           </svg>
                         </div>
                       </div>
@@ -3730,7 +3742,7 @@
                             viewBox="0 0 24 24"
                             fill="rgba(255,174,15,1)"
                           >
-                            <use xlink:href="#shape_EdmvlswxbU"></use>
+                            <use xlink:href="#shape_mDMAAcwVSE"></use>
                           </svg>
                         </div>
                       </div>
@@ -3744,7 +3756,7 @@
                             viewBox="0 0 24 24"
                             fill="rgba(255,174,15,1)"
                           >
-                            <use xlink:href="#shape_EdmvlswxbU"></use>
+                            <use xlink:href="#shape_mDMAAcwVSE"></use>
                           </svg>
                         </div>
                       </div>
@@ -3758,7 +3770,7 @@
                             viewBox="0 0 24 24"
                             fill="rgba(255,174,15,1)"
                           >
-                            <use xlink:href="#shape_EdmvlswxbU"></use>
+                            <use xlink:href="#shape_mDMAAcwVSE"></use>
                           </svg>
                         </div>
                       </div>
@@ -3801,7 +3813,7 @@
                             viewBox="0 0 152.09 115.41"
                             fill="rgba(255, 255, 255, 1.0)"
                           >
-                            <use xlink:href="#shape_yzbmnVwKdk"></use>
+                            <use xlink:href="#shape_neFcLLIDUQ"></use>
                           </svg>
                         </div>
                       </div>
@@ -3822,7 +3834,7 @@
                                 viewBox="0 0 24 24"
                                 fill="rgba(255,174,15,1)"
                               >
-                                <use xlink:href="#shape_EdmvlswxbU"></use>
+                                <use xlink:href="#shape_mDMAAcwVSE"></use>
                               </svg>
                             </div>
                           </div>
@@ -3836,7 +3848,7 @@
                                 viewBox="0 0 24 24"
                                 fill="rgba(255,174,15,1)"
                               >
-                                <use xlink:href="#shape_EdmvlswxbU"></use>
+                                <use xlink:href="#shape_mDMAAcwVSE"></use>
                               </svg>
                             </div>
                           </div>
@@ -3850,7 +3862,7 @@
                                 viewBox="0 0 24 24"
                                 fill="rgba(255,174,15,1)"
                               >
-                                <use xlink:href="#shape_EdmvlswxbU"></use>
+                                <use xlink:href="#shape_mDMAAcwVSE"></use>
                               </svg>
                             </div>
                           </div>
@@ -3864,7 +3876,7 @@
                                 viewBox="0 0 24 24"
                                 fill="rgba(255,174,15,1)"
                               >
-                                <use xlink:href="#shape_EdmvlswxbU"></use>
+                                <use xlink:href="#shape_mDMAAcwVSE"></use>
                               </svg>
                             </div>
                           </div>
@@ -3878,7 +3890,7 @@
                                 viewBox="0 0 24 24"
                                 fill="rgba(255,174,15,1)"
                               >
-                                <use xlink:href="#shape_EdmvlswxbU"></use>
+                                <use xlink:href="#shape_mDMAAcwVSE"></use>
                               </svg>
                             </div>
                           </div>
@@ -3899,7 +3911,7 @@
                         viewBox="0 0 152.09 115.41"
                         fill="rgba(255, 255, 255, 1.0)"
                       >
-                        <use xlink:href="#shape_yzbmnVwKdk"></use>
+                        <use xlink:href="#shape_neFcLLIDUQ"></use>
                       </svg>
                     </div>
                   </div>
@@ -4935,7 +4947,7 @@
           window.LadiPageScript.runtime.desktop_width = 960;
           window.LadiPageScript.runtime.mobile_width = 420;
           window.LadiPageScript.runtime.tracking_button_click = true;
-          window.LadiPageScript.runtime.publish_time = 1717195627512;
+          window.LadiPageScript.runtime.publish_time = 1717196227904;
           window.LadiPageScript.runtime.lang = "vi";
           window.LadiPageScript.run(true);
           window.LadiPageScript.runEventScroll();
@@ -4945,4 +4957,4 @@
     </script>
   </body>
 </html>
-<!--Publish time: Fri, 31 May 2024 22:47:07 GMT--><!--LadiPage build time: Fri, 31 May 2024 10:02:14 GMT-->
+<!--Publish time: Fri, 31 May 2024 22:57:08 GMT--><!--LadiPage build time: Fri, 31 May 2024 10:02:14 GMT-->
